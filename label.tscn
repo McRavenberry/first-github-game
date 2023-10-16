@@ -1,0 +1,18 @@
+[gd_scene load_steps=3 format=3 uid="uid://wdfjdaxpk7fk"]
+
+[sub_resource type="SystemFont" id="SystemFont_s5rgs"]
+
+[sub_resource type="LabelSettings" id="LabelSettings_p07jl"]
+font = SubResource("SystemFont_s5rgs")
+font_size = 50
+font_color = Color(1, 0.0588235, 0, 1)
+outline_size = 5
+outline_color = Color(0, 0, 0, 1)
+
+[node name="Label" type="Label"]
+offset_left = 389.0
+offset_top = 242.0
+offset_right = 802.0
+offset_bottom = 314.0
+text = "Trevor McGarrah"
+label_settings = SubResource("LabelSettings_p07jl")
